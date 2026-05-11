@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/netwer/",
+  base: "/netwerk_jazz/",
   server: {
     port: 5173,
   },
