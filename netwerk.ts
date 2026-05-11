@@ -3,7 +3,7 @@ import Sigma from "sigma";
 
 async function initializeGraph() {
   // Fetch the dataset
-  const response = await fetch("probeersel2.json");
+  const response = await fetch("./probeersel2.json");
   const dataset: any = await response.json();
 
   // Build a graphology graph from the dataset
