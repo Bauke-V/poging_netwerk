@@ -14,7 +14,15 @@
         "x": -414.39087,
         "y": 75.70555,
         "size": 10.0,
-        "color": "#000000"
+        "color": "#000000",
+        "label": "Juul Anthonissen",
+        "image": "/P0000_Anthonissen_Juul_JA-F-E-721.jpg",
+        "links": [
+          {
+            "label": "Viaf",
+            "url": "http://viaf.org/viaf/307304570"
+          }
+        ]
       }
     },
     {
