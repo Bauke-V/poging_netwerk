@@ -3,17 +3,40 @@
   <head>
     <style>
       #sigma-container {
-        width: 100%;
+        width: 100vw;
         height: 100vh;
       }
       body {
         margin: 0;
         padding: 0;
       }
+      #info-panel {
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 500px;
+        height: 100vh;
+        background: #ffffff;
+        border-left: 1px solid #ddd;
+        padding: 16px;
+        box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+        overflow-y: auto;
+        font-family: sans-serif;
+        z-index: 10;
+      }
     </style>
   </head>
   <body>
     <div id="sigma-container"></div>
-    <script type="module" src="/netwerk.ts"></script>
+    
+    <div id="info-panel" class="hidden">
+      <button id="close-panel">×</button>
+      <img id="node-image" />
+      <h2 id="node-title"></h2>
+      <p id="node-bio"></p>
+      <ul id="node-links"></ul>
+    </div>
+
+    <script type="module" src="/src/netwerk.ts"></script>
   </body>
 </html>
