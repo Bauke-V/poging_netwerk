@@ -1,0 +1,1148 @@
+{
+  "attributes": {
+    "creator": "Gephi 0.11.1"
+  },
+  "options": {
+    "multi": false,
+    "allowSelfLoops": true,
+    "type": "directed"
+  },
+  "nodes": [
+    {
+      "key": "Juul Anthonissen",
+      "attributes": {
+        "x": -414.39087,
+        "y": 75.70555,
+        "size": 10.0,
+        "color": "#000000"
+      }
+    },
+    {
+      "key": "Hnita Jazz Club",
+      "attributes": {
+        "x": 144.92445,
+        "y": -403.4777,
+        "size": 10.0,
+        "color": "#000000"
+      }
+    },
+    {
+      "key": "Vlaamse Radio- en Televisieomroeporganisatie",
+      "attributes": {
+        "x": 332.2019,
+        "y": 208.82158,
+        "size": 10.0,
+        "color": "#000000"
+      }
+    },
+    {
+      "key": "Hnita Hoeve",
+      "attributes": {
+        "x": 62.69825,
+        "y": -170.37132,
+        "size": 10.0,
+        "color": "#000000"
+      }
+    },
+    {
+      "key": "Jack Sels",
+      "attributes": {
+        "x": -135.65883,
+        "y": -86.784744,
+        "size": 10.0,
+        "color": "#000000"
+      }
+    },
+    {
+      "key": "Jazz Bilzen 1966",
+      "attributes": {
+        "x": -196.87743,
+        "y": -149.79881,
+        "size": 10.0,
+        "color": "#000000"
+      }
+    },
+    {
+      "key": "Collectie en archief van Juul Anthonissen",
+      "attributes": {
+        "x": -326.25647,
+        "y": 353.5159,
+        "size": 10.0,
+        "color": "#000000"
+      }
+    },
+    {
+      "key": "Collectie en archief VRT",
+      "attributes": {
+        "x": 14.457956,
+        "y": -70.347855,
+        "size": 10.0,
+        "color": "#000000"
+      }
+    },
+    {
+      "key": "Félix Faecq",
+      "attributes": {
+        "x": -230.52693,
+        "y": 181.26176,
+        "size": 10.0,
+        "color": "#000000"
+      }
+    },
+    {
+      "key": "Publicatie van Musique Magazine (Music)",
+      "attributes": {
+        "x": 322.474,
+        "y": -249.64998,
+        "size": 10.0,
+        "color": "#000000"
+      }
+    },
+    {
+      "key": "Opnamesessie Chas Remue te Londen",
+      "attributes": {
+        "x": 68.08259,
+        "y": -51.093002,
+        "size": 10.0,
+        "color": "#000000"
+      }
+    },
+    {
+      "key": "Fonds van Robert Pernet",
+      "attributes": {
+        "x": -152.81834,
+        "y": 185.18974,
+        "size": 10.0,
+        "color": "#000000"
+      }
+    },
+    {
+      "key": "Toots Thielemans",
+      "attributes": {
+        "x": 135.51686,
+        "y": -30.925829,
+        "size": 10.0,
+        "color": "#000000"
+      }
+    },
+    {
+      "key": "Jazz Middelheim",
+      "attributes": {
+        "x": 296.92877,
+        "y": -250.40431,
+        "size": 10.0,
+        "color": "#000000"
+      }
+    },
+    {
+      "key": "Collectie instrumenten Toots",
+      "attributes": {
+        "x": -37.307457,
+        "y": -76.71962,
+        "size": 10.0,
+        "color": "#000000"
+      }
+    },
+    {
+      "key": "Fonds Toots Thielemans",
+      "attributes": {
+        "x": 412.10614,
+        "y": -234.94936,
+        "size": 10.0,
+        "color": "#000000"
+      }
+    },
+    {
+      "key": "Robert Pernet",
+      "attributes": {
+        "x": -42.352318,
+        "y": -373.0928,
+        "size": 10.0,
+        "color": "#000000"
+      }
+    },
+    {
+      "key": "Marc Moulin",
+      "attributes": {
+        "x": -202.68782,
+        "y": -233.5923,
+        "size": 10.0,
+        "color": "#000000"
+      }
+    },
+    {
+      "key": "Placebo",
+      "attributes": {
+        "x": -380.62216,
+        "y": 490.97195,
+        "size": 10.0,
+        "color": "#000000"
+      }
+    },
+    {
+      "key": "Jazz Bilzen",
+      "attributes": {
+        "x": -271.32227,
+        "y": -290.34354,
+        "size": 10.0,
+        "color": "#000000"
+      }
+    },
+    {
+      "key": "Placebo op Jazz Middelheim 1972",
+      "attributes": {
+        "x": 421.95526,
+        "y": 386.29654,
+        "size": 10.0,
+        "color": "#000000"
+      }
+    },
+    {
+      "key": "Muziekinstrumentenmuseum",
+      "attributes": {
+        "x": 352.1526,
+        "y": 92.47838,
+        "size": 10.0,
+        "color": "#000000"
+      }
+    },
+    {
+      "key": "BRT Jazzorkest",
+      "attributes": {
+        "x": 282.25134,
+        "y": -188.03902,
+        "size": 10.0,
+        "color": "#000000"
+      }
+    },
+    {
+      "key": "Flageygebouw",
+      "attributes": {
+        "x": -201.09322,
+        "y": 186.84068,
+        "size": 10.0,
+        "color": "#000000"
+      }
+    },
+    {
+      "key": "Koninklijke Bibliotheek van België",
+      "attributes": {
+        "x": -389.43863,
+        "y": 497.46536,
+        "size": 10.0,
+        "color": "#000000"
+      }
+    },
+    {
+      "key": "Flagey",
+      "attributes": {
+        "x": 135.60255,
+        "y": 201.04265,
+        "size": 10.0,
+        "color": "#000000"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "0",
+      "source": "Juul Anthonissen",
+      "target": "Hnita Jazz Club",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "1",
+      "source": "Hnita Jazz Club",
+      "target": "Juul Anthonissen",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "2",
+      "source": "Juul Anthonissen",
+      "target": "Vlaamse Radio- en Televisieomroeporganisatie",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "3",
+      "source": "Vlaamse Radio- en Televisieomroeporganisatie",
+      "target": "Juul Anthonissen",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "4",
+      "source": "Juul Anthonissen",
+      "target": "Hnita Hoeve",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "5",
+      "source": "Hnita Hoeve",
+      "target": "Juul Anthonissen",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "6",
+      "source": "Juul Anthonissen",
+      "target": "Jack Sels",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "7",
+      "source": "Jack Sels",
+      "target": "Juul Anthonissen",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "8",
+      "source": "Juul Anthonissen",
+      "target": "Jazz Bilzen 1966",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "9",
+      "source": "Jazz Bilzen 1966",
+      "target": "Juul Anthonissen",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "10",
+      "source": "Juul Anthonissen",
+      "target": "Collectie en archief van Juul Anthonissen",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "11",
+      "source": "Collectie en archief van Juul Anthonissen",
+      "target": "Juul Anthonissen",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "12",
+      "source": "Jack Sels",
+      "target": "Hnita Jazz Club",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "13",
+      "source": "Hnita Jazz Club",
+      "target": "Jack Sels",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "14",
+      "source": "Jack Sels",
+      "target": "Vlaamse Radio- en Televisieomroeporganisatie",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "15",
+      "source": "Vlaamse Radio- en Televisieomroeporganisatie",
+      "target": "Jack Sels",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "16",
+      "source": "Jack Sels",
+      "target": "Jazz Bilzen 1966",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "17",
+      "source": "Jazz Bilzen 1966",
+      "target": "Jack Sels",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "18",
+      "source": "Jack Sels",
+      "target": "Collectie en archief van Juul Anthonissen",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "19",
+      "source": "Collectie en archief van Juul Anthonissen",
+      "target": "Jack Sels",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "20",
+      "source": "Jack Sels",
+      "target": "Collectie en archief VRT",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "21",
+      "source": "Collectie en archief VRT",
+      "target": "Jack Sels",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "22",
+      "source": "Félix Faecq",
+      "target": "Publicatie van Musique Magazine (Music)",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "23",
+      "source": "Publicatie van Musique Magazine (Music)",
+      "target": "Félix Faecq",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "24",
+      "source": "Félix Faecq",
+      "target": "Opnamesessie Chas Remue te Londen",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "25",
+      "source": "Opnamesessie Chas Remue te Londen",
+      "target": "Félix Faecq",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "26",
+      "source": "Félix Faecq",
+      "target": "Fonds van Robert Pernet",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "27",
+      "source": "Fonds van Robert Pernet",
+      "target": "Félix Faecq",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "28",
+      "source": "Toots Thielemans",
+      "target": "Hnita Jazz Club",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "29",
+      "source": "Hnita Jazz Club",
+      "target": "Toots Thielemans",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "30",
+      "source": "Toots Thielemans",
+      "target": "Jazz Middelheim",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "31",
+      "source": "Jazz Middelheim",
+      "target": "Toots Thielemans",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "32",
+      "source": "Toots Thielemans",
+      "target": "Collectie instrumenten Toots",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "33",
+      "source": "Collectie instrumenten Toots",
+      "target": "Toots Thielemans",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "34",
+      "source": "Toots Thielemans",
+      "target": "Fonds Toots Thielemans",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "35",
+      "source": "Fonds Toots Thielemans",
+      "target": "Toots Thielemans",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "36",
+      "source": "Toots Thielemans",
+      "target": "Collectie en archief van Juul Anthonissen",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "37",
+      "source": "Collectie en archief van Juul Anthonissen",
+      "target": "Toots Thielemans",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "38",
+      "source": "Toots Thielemans",
+      "target": "Collectie en archief VRT",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "39",
+      "source": "Collectie en archief VRT",
+      "target": "Toots Thielemans",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "40",
+      "source": "Robert Pernet",
+      "target": "Félix Faecq",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "41",
+      "source": "Félix Faecq",
+      "target": "Robert Pernet",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "42",
+      "source": "Robert Pernet",
+      "target": "Fonds van Robert Pernet",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "43",
+      "source": "Fonds van Robert Pernet",
+      "target": "Robert Pernet",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "44",
+      "source": "Marc Moulin",
+      "target": "Placebo",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "45",
+      "source": "Placebo",
+      "target": "Marc Moulin",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "46",
+      "source": "Marc Moulin",
+      "target": "Placebo",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "47",
+      "source": "Placebo",
+      "target": "Marc Moulin",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "48",
+      "source": "Marc Moulin",
+      "target": "Jazz Bilzen",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "49",
+      "source": "Jazz Bilzen",
+      "target": "Marc Moulin",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "50",
+      "source": "Marc Moulin",
+      "target": "Placebo op Jazz Middelheim 1972",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "51",
+      "source": "Placebo op Jazz Middelheim 1972",
+      "target": "Marc Moulin",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "52",
+      "source": "Hnita Jazz Club",
+      "target": "Vlaamse Radio- en Televisieomroeporganisatie",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "53",
+      "source": "Vlaamse Radio- en Televisieomroeporganisatie",
+      "target": "Hnita Jazz Club",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "54",
+      "source": "Hnita Jazz Club",
+      "target": "Hnita Hoeve",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "55",
+      "source": "Hnita Hoeve",
+      "target": "Hnita Jazz Club",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "56",
+      "source": "Hnita Jazz Club",
+      "target": "Collectie en archief van Juul Anthonissen",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "57",
+      "source": "Collectie en archief van Juul Anthonissen",
+      "target": "Hnita Jazz Club",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "58",
+      "source": "Hnita Jazz Club",
+      "target": "Collectie en archief VRT",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "59",
+      "source": "Collectie en archief VRT",
+      "target": "Hnita Jazz Club",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "60",
+      "source": "Muziekinstrumentenmuseum",
+      "target": "Fonds van Robert Pernet",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "61",
+      "source": "Fonds van Robert Pernet",
+      "target": "Muziekinstrumentenmuseum",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "62",
+      "source": "Muziekinstrumentenmuseum",
+      "target": "Collectie instrumenten Toots",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "63",
+      "source": "Collectie instrumenten Toots",
+      "target": "Muziekinstrumentenmuseum",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "64",
+      "source": "Vlaamse Radio- en Televisieomroeporganisatie",
+      "target": "BRT Jazzorkest",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "65",
+      "source": "BRT Jazzorkest",
+      "target": "Vlaamse Radio- en Televisieomroeporganisatie",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "66",
+      "source": "Vlaamse Radio- en Televisieomroeporganisatie",
+      "target": "Flageygebouw",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "67",
+      "source": "Flageygebouw",
+      "target": "Vlaamse Radio- en Televisieomroeporganisatie",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "68",
+      "source": "Vlaamse Radio- en Televisieomroeporganisatie",
+      "target": "Jazz Middelheim",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "69",
+      "source": "Jazz Middelheim",
+      "target": "Vlaamse Radio- en Televisieomroeporganisatie",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "70",
+      "source": "Vlaamse Radio- en Televisieomroeporganisatie",
+      "target": "Collectie en archief VRT",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "71",
+      "source": "Collectie en archief VRT",
+      "target": "Vlaamse Radio- en Televisieomroeporganisatie",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "72",
+      "source": "Placebo",
+      "target": "Jazz Bilzen",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "73",
+      "source": "Jazz Bilzen",
+      "target": "Placebo",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "74",
+      "source": "Placebo",
+      "target": "Placebo op Jazz Middelheim 1972",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "75",
+      "source": "Placebo op Jazz Middelheim 1972",
+      "target": "Placebo",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "76",
+      "source": "Koninklijke Bibliotheek van België",
+      "target": "Fonds Toots Thielemans",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "77",
+      "source": "Fonds Toots Thielemans",
+      "target": "Koninklijke Bibliotheek van België",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "78",
+      "source": "BRT Jazzorkest",
+      "target": "Jazz Middelheim",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "79",
+      "source": "Jazz Middelheim",
+      "target": "BRT Jazzorkest",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "80",
+      "source": "BRT Jazzorkest",
+      "target": "Collectie en archief VRT",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "81",
+      "source": "Collectie en archief VRT",
+      "target": "BRT Jazzorkest",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "82",
+      "source": "Flagey",
+      "target": "Flageygebouw",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "83",
+      "source": "Flageygebouw",
+      "target": "Flagey",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "84",
+      "source": "Jazz Bilzen",
+      "target": "Collectie en archief van Juul Anthonissen",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "85",
+      "source": "Collectie en archief van Juul Anthonissen",
+      "target": "Jazz Bilzen",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "86",
+      "source": "Jazz Bilzen",
+      "target": "Collectie en archief VRT",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "87",
+      "source": "Collectie en archief VRT",
+      "target": "Jazz Bilzen",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "88",
+      "source": "Jazz Bilzen 1966",
+      "target": "Collectie en archief van Juul Anthonissen",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "89",
+      "source": "Collectie en archief van Juul Anthonissen",
+      "target": "Jazz Bilzen 1966",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "90",
+      "source": "Publicatie van Musique Magazine (Music)",
+      "target": "Fonds van Robert Pernet",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "91",
+      "source": "Fonds van Robert Pernet",
+      "target": "Publicatie van Musique Magazine (Music)",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "92",
+      "source": "Jazz Middelheim",
+      "target": "Collectie en archief van Juul Anthonissen",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "93",
+      "source": "Collectie en archief van Juul Anthonissen",
+      "target": "Jazz Middelheim",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "94",
+      "source": "Jazz Middelheim",
+      "target": "Collectie en archief VRT",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "95",
+      "source": "Collectie en archief VRT",
+      "target": "Jazz Middelheim",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "96",
+      "source": "Placebo op Jazz Middelheim 1972",
+      "target": "Collectie en archief VRT",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "97",
+      "source": "Collectie en archief VRT",
+      "target": "Placebo op Jazz Middelheim 1972",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "98",
+      "source": "Collectie instrumenten Toots",
+      "target": "Fonds Toots Thielemans",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    },
+    {
+      "key": "99",
+      "source": "Fonds Toots Thielemans",
+      "target": "Collectie instrumenten Toots",
+      "attributes": {
+        "color": "#000000",
+        "weight": 1.0
+      }
+    }
+  ]
+}
