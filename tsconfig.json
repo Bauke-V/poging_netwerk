@@ -13,6 +13,6 @@
     "noFallthroughCasesInSwitch": true,
     "moduleResolution": "bundler"
   },
-  "include": ["**/*.ts", "vite.config.js"],
+  "include": ["**/*.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

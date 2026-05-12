@@ -5,6 +5,7 @@
       #sigma-container {
         width: 100vw;
         height: 100vh;
+        pointer-events: auto;
       }
       body {
         margin: 0;
@@ -23,19 +24,13 @@
         overflow-y: auto;
         font-family: sans-serif;
         z-index: 10;
+        display: none;
+        pointer-events: auto;
       }
     </style>
   </head>
   <body>
     <div id="sigma-container"></div>
-    
-    <div id="info-panel" class="hidden">
-      <button id="close-panel">×</button>
-      <img id="node-image" />
-      <h2 id="node-title"></h2>
-      <p id="node-bio"></p>
-      <ul id="node-links"></ul>
-    </div>
 
     <script type="module" src="/src/netwerk.ts"></script>
   </body>

@@ -1,72 +1,27 @@
 import Graph from "graphology";
 import Sigma from "sigma";
-
-// ---------- PANEL LOGIC ----------
-
-function showNodeInfo(node: string, graph: Graph) {
-  const attrs: any = graph.getNodeAttributes(node);
-
-  const panel = document.getElementById("info-panel")!;
-  panel.classList.remove("hidden");
-
-  // Image
-  const img = document.getElementById("node-image") as HTMLImageElement;
-  if (attrs.image) {
-    img.src = attrs.image;
-    img.style.display = "block";
-  } else {
-    img.style.display = "none";
-  }
-
-  // Title & bio
-  document.getElementById("node-title")!.textContent =
-    attrs.label || node;
-
-  document.getElementById("node-bio")!.textContent =
-    attrs.bio || "";
-
-  // Links
-  const linksList = document.getElementById("node-links")!;
-  linksList.innerHTML = "";
-
-  if (Array.isArray(attrs.links)) {
-    for (const link of attrs.links) {
-      const li = document.createElement("li");
-      const a = document.createElement("a");
-      a.href = link.url;
-      a.textContent = link.label;
-      a.target = "_blank";
-      a.rel = "noopener noreferrer";
-      li.appendChild(a);
-      linksList.appendChild(li);
-    }
-  }
-}
-
-// ---------- MAIN ----------
+import { EdgeDisplayData, NodeDisplayData } from "sigma/types";
 
 async function initializeGraph() {
-  // Load dataset (must be in /public)
+  // Fetch the dataset
   const response = await fetch("./probeersel2.json");
   const dataset: any = await response.json();
 
+  //get container
+  const container = document.getElementById("sigma-container") as HTMLElement;
+
+  // Build a graphology graph from the dataset
   const graph = new Graph();
 
   // Add nodes
   for (const node of dataset.nodes) {
     const attrs = node.attributes || {};
-
     graph.addNode(node.key, {
-      label: attrs.label || node.key,
-      x: attrs.x ?? Math.random(),
-      y: attrs.y ?? Math.random(),
-      size: attrs.size ?? 10,
-      color: attrs.color ?? "#999",
-
-      // metadata
-      image: attrs.image,
-      bio: attrs.bio,
-      links: attrs.links,
+      label: node.key,
+      x: attrs.x || 0,
+      y: attrs.y || 0,
+      color: attrs.color || "#999999",
+      size: attrs.size || 10,
     });
   }
 
@@ -74,44 +29,114 @@ async function initializeGraph() {
   for (const edge of dataset.edges) {
     const source = edge.source || edge.from;
     const target = edge.target || edge.to;
-
-    if (
-      graph.hasNode(source) &&
-      graph.hasNode(target) &&
-      !graph.hasEdge(source, target)
-    ) {
+    if (graph.hasNode(source) && graph.hasNode(target) && !graph.hasEdge(source, target)) {
       graph.addEdge(source, target);
     }
   }
 
-  // Render Sigma
-  const container = document.getElementById("sigma-container")!;
-  const renderer = new Sigma(graph, container);
+  // Render
+  const renderer = new Sigma(graph, container)
 
-  // ---------- EVENTS ----------
+  
 
-  // Click on node → open panel + focus
-  renderer.on("clickNode", ({ node }) => {
-    showNodeInfo(node, graph);
-
-    const x = graph.getNodeAttribute(node, "x");
-    const y = graph.getNodeAttribute(node, "y");
-
-    renderer.getCamera().animate(
-      { x, y, ratio: 0.6 },
-      { duration: 500 }
-    );
-  });
-
-  // Click on background → close panel
-  renderer.on("clickStage", () => {
-    document.getElementById("info-panel")!.classList.add("hidden");
-  });
-
-  // Close button
-  document.getElementById("close-panel")!.onclick = () => {
-    document.getElementById("info-panel")!.classList.add("hidden");
-  };
+interface State {
+  selectedNode?: string;
+  selectedNeighbors?: Set<string>;
 }
 
-initializeGraph();
+
+const state: State = {};
+
+// ------------------------------------
+// State updates
+// ------------------------------------
+
+function setSelectedNode(node?: string) {
+  if (node) {
+    state.selectedNode = node;
+    state.selectedNeighbors = new Set(graph.neighbors(node));
+  } else {
+    state.selectedNode = undefined;
+    state.selectedNeighbors = undefined;
+  }
+
+
+  // We only change rendering logic, not graph structure
+  renderer.refresh({
+    skipIndexation: true,
+  });
+}
+
+// ------------------------------------
+// Graph interactions
+// ------------------------------------
+
+
+
+renderer.on("clickNode", ({ node }) => {
+  // Optional: toggle behavior
+  if (state.selectedNode === node) {
+    setSelectedNode(undefined);
+  } else {
+    setSelectedNode(node);
+  }
+});
+
+renderer.on("clickStage", () => {
+  setSelectedNode(undefined);
+});
+
+
+// ------------------------------------
+// Node reducer
+// ------------------------------------
+//
+// Rules:
+// 1. Hovered node stays visible and highlighted
+// 2. Its neighbors stay visible
+// 3. All other nodes are greyed out and labels hidden
+//
+renderer.setSetting("nodeReducer", (node, data) => {
+  const res: Partial<NodeDisplayData> = { ...data };
+
+  if (
+    state.selectedNode &&
+    node !== state.selectedNode &&
+    !state.selectedNeighbors?.has(node)
+  ) {
+    res.label = "";
+    res.color = "#f0f0f0";
+  }
+
+  if (node === state.selectedNode) {
+    res.highlighted = true;
+    res.forceLabel = true;
+  }
+
+  return res;
+});
+
+// ------------------------------------
+// Edge reducer
+// ------------------------------------
+//
+// Rule:
+// Only show edges connected to the hovered node
+//
+renderer.setSetting("edgeReducer", (edge, data) => {
+  const res: Partial<EdgeDisplayData> = { ...data };
+
+  if (state.selectedNode) {
+    const [source, target] = graph.extremities(edge);
+
+    if (source !== state.selectedNode && target !== state.selectedNode) {
+      res.hidden = true;
+    }
+  }
+
+  return res;
+});
+
+}
+
+initializeGraph()
